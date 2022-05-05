@@ -350,7 +350,14 @@ template {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0;
+  padding: 200px 0;
 }
 
 img {
@@ -377,5 +384,16 @@ img {
   padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+}
+
+tr, td {
+  padding: 10px;
+  border: 1.5px solid black;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
